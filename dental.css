@@ -1,0 +1,259 @@
+/* Header Section Starts */
+.header{
+    background-color: #B2BEB5;
+    height:50px;
+}
+.row1{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+.row1 .logo{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 20px;
+    text-decoration: none;
+    color:#000;
+}
+.row1 .logo span{
+    color: #008888;
+}
+.navigate{
+    list-style-type:none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.navigate li{
+    display: inline-block;
+    font-size: 18px;
+    padding-left: 20px;
+}
+.navigate li a{
+    text-decoration: none;
+    font-family: 'Roboto';
+    color: #000;
+}
+.navigate li a:hover{
+    color:deeppink;
+}
+.row1 .link-btn{
+    background-color: #008888;
+    color:white;
+    border: 0;
+    border-radius: 5px;
+    text-decoration: none;
+    width:15%;
+    height:33px;
+    text-align: center;
+    font-size: 18px;
+}
+
+
+
+/* Home section Starts */
+.home{
+    background-image: url("https://res.cloudinary.com/dqfbn2hpt/image/upload/v1713085020/teeth2_mapsf5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main{
+    color:#000;
+    font-family:'Tmes New Roman';
+    padding-left:60px;
+    
+}
+.main-desc{
+    font-family: 'Roboto';
+    font-size:30px;
+    ;
+}
+#button{
+    background-color: #008888;
+    color:white;
+    border: 0;
+    border-radius: 5px;
+    text-decoration: none;
+    width:20%;
+    height:35px;
+    text-align: center;
+    font-size: 16px;
+    padding:5px;
+    margin-left:120px
+}
+.image{
+    padding-top:10px;
+}
+.image1{
+    border-radius: 10px;
+}
+.row3{
+    color:#008888;
+    font-weight: 500;
+}
+.about-head{
+    font-family: 'Sofia',sans serif;
+}
+.heading{
+    text-align: center;
+    font-family: Didot;
+    margin-top:30px;
+    
+}
+h4{
+    font-family: 'Sofia',sans serif;
+}
+.center{
+    display:block;
+    margin-left: 100px;
+}
+#row4{
+    font-size:17px;
+}
+#services,
+#reviews{
+    background-color: whitesmoke;
+    margin-top: 5px;
+}
+.grid-container{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    padding:20px;
+    gap:30px 40px;
+    margin-left:10px;
+}
+.box{
+    background-color: #fff;
+    padding:20px;
+    text-align:center;
+    box-shadow: 2px 2px 2px 2px gainsboro;
+    
+    border: 0;
+    border-radius: 5px;
+}
+.grid-container1{
+    display:grid;
+    grid-template-columns: auto auto auto;
+}
+.box1{
+    background-color: #008888;
+    text-align: center;
+    width:80%;
+    padding-top:20px;
+    margin-left:60px;
+    border-radius: 20px;
+}
+.box1 p{
+    color:white;
+}
+.box1 h3{
+    font-family: 'Times New Roman', Times, serif;
+}
+.stars{
+    color:#008888;
+}
+
+
+
+/* Contact Section Starts */
+.contact form{
+    border-radius: 10px;
+    background-color:whitesmoke;
+    padding:25px;
+    margin:0 auto;
+    max-width:50rem;
+}
+.contact form .message{
+    margin-bottom: 5px;
+    border-radius: 10px;
+    background-color:#008888;
+    padding:4px 4px;
+    font-size: 20px;
+    color:white;
+    text-align: center;
+}
+.contact form .form-details{
+    width:100%;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: white;
+    padding:4px 4px;
+    font-size: 15px;
+    color:black;
+    text-transform: none;
+}
+.contact form span{
+    font-size: 20px;
+    color:black;
+}
+.contact form .link-btn{
+    background-color: #008888;
+    color:white;
+    border: 0;
+    border-radius: 5px;
+    text-decoration: none;
+    width:20%;
+    height:35px;
+    text-align: center;
+    font-size: 16px;
+    padding:5px;
+}
+
+
+
+
+
+/* Footer Section Starts */
+.footer{
+    background-color: whitesmoke;
+}
+.footer .box-container{
+    display: grid;
+    grid-template-columns:auto auto auto auto;
+    gap:10px;
+    background-color: whitesmoke;
+    margin-top:20px;
+    padding-top:15px;
+}
+.footer .box-container .foot{
+    text-align: center;
+}
+.footer .box-container .foot i{
+    height:3rem;
+    width:3rem;
+    border-radius: 50%;
+    line-height: 3rem;
+    font-size: 20px;
+    background-color: #008888;
+    color:white;
+    margin-bottom: 1rem;
+    
+}
+.footer .box-container .foot h3{
+    font-size: 20px;
+    margin:1rem 0;
+    color:black;
+}
+.footer .box-container .foot p{
+    font-size: 15px;
+    color:var(--light-color);
+    text-transform: none;
+    line-height: 2;
+}
+
+
+.credit{
+    text-align: center;
+    border-top: var(--border);
+    padding-top:10px;
+    margin-top:10px;
+    font-size: 17px;
+    padding-bottom: 10px;
+    color:var(--light-color);
+}
+.credit span{
+    color:#008888;
+}
+
